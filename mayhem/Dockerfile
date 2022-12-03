@@ -19,5 +19,5 @@ RUN mkdir build && \
 FROM --platform=linux/amd64 ubuntu:20.04
 
 ## TODO: Change <Path in Builder Stage>
-COPY --from=builder /mayhem-cmake-example/build/fuzzme
+COPY --from=builder /mayhem-cmake-example/build/fuzzme /
 
